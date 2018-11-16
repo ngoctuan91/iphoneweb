@@ -1,0 +1,111 @@
+body{
+	width: 1200px;
+	margin: 0 auto;
+	font-family: arial, sans-serif;
+}
+#menu{
+	height: 48px;
+	width: 100%;
+	background-color: #333;
+	padding: 0px;
+	margin: 0px;
+}
+
+*{
+	box-sizing: border-box;
+}
+#menu i{
+	text-align: center;
+}
+#menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu-list{
+	color: white;
+	float: left;
+	width: 14.28%;
+	text-align: center;
+	margin-top: 16px;
+} 
+#menu a{
+	text-decoration: none;
+	text-align: center;
+    font-size: 16px;
+	color: white;
+}
+#menu a:hover{
+	font-size: 110%;
+}
+/*menu end*/
+#banner{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height:568px;
+	background: url(img/banner.jpg) no-repeat;
+	background-size: 100% 100%;
+
+}
+.welcome{
+	color: white;
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+}
+#banner h1{
+	padding-top: 60px;
+}
+#banner a{
+	display: block;
+	text-decoration: none;
+	color: #6bf;
+}
+#banner a:hover{
+	color: green;
+	text-decoration: underline;
+}
+/*banner end*/
+#iphone{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height:568px;
+	background: url(img/iphone.png) no-repeat;
+	background-size: auto 100%;
+	background-position: right;
+	text-overflow: hidden;
+	text-align: justify;
+	position: relative;
+}
+
+.iphone-content{
+	position: absolute;
+	left: 250px;
+	top: 150px;
+}
+
+#iphone a{
+		text-decoration: none;
+		display: inline-block;
+		padding-left: 15px;
+		color: #6bf;
+
+}
+#iphone a:hover{
+	color: green;
+	text-decoration: underline;
+}
+
+
+/*iphone end*/
+
+#ipad{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height:568px;
+	background-color: #333;
+}
